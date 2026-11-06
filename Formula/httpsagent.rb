@@ -2,27 +2,27 @@
 class Httpsagent < Formula
   desc "Automatic HTTPS certificate agent"
   homepage "https://httpsagent.com"
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/httpsagent/httpsagent/releases/download/v0.2.0/httpsagent-0.2.0-osx-arm64.tar.gz"
-      sha256 "faf78673d21f021dd20e46d14673830d48e39b03f3a32d388014692910daccb1"
+      url "https://github.com/httpsagent/httpsagent/releases/download/v0.2.1/httpsagent-0.2.1-osx-arm64.tar.gz"
+      sha256 "dc8d59c4f4842b89027cc9bce81b1ee013e8cdcd24804bf848a3b607e320e494"
     end
     on_intel do
-      url "https://github.com/httpsagent/httpsagent/releases/download/v0.2.0/httpsagent-0.2.0-osx-x64.tar.gz"
-      sha256 "b702ce49cecf6edbf4ac4f8dec7bf1394d876edbfe79406a0641378a56a37277"
+      url "https://github.com/httpsagent/httpsagent/releases/download/v0.2.1/httpsagent-0.2.1-osx-x64.tar.gz"
+      sha256 "a3d95e71f1f7a95f2d131ccbda7ff1fcedb2d406a56f3607a33461940f11964d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/httpsagent/httpsagent/releases/download/v0.2.0/httpsagent-0.2.0-linux-arm64.tar.gz"
-      sha256 "3a002a57cbb3ec4f2888939731061c6302e1f58da9e5fc21ae5b4b231d1fcddc"
+      url "https://github.com/httpsagent/httpsagent/releases/download/v0.2.1/httpsagent-0.2.1-linux-arm64.tar.gz"
+      sha256 "38a122647ac27ee30c092962fd83584aa75b74b2492901ea79b4e566a819a5da"
     end
     on_intel do
-      url "https://github.com/httpsagent/httpsagent/releases/download/v0.2.0/httpsagent-0.2.0-linux-x64.tar.gz"
-      sha256 "f1a2de3d9747f0c32f43c42ba38c27e1e310dc09187b8d1ba5448ce2395c6dfa"
+      url "https://github.com/httpsagent/httpsagent/releases/download/v0.2.1/httpsagent-0.2.1-linux-x64.tar.gz"
+      sha256 "4f8df8856620975a9a42b4ff9ba315600a7273b44733ad0f83e80db1c9580a7d"
     end
   end
 
